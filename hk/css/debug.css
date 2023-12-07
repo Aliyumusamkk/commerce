@@ -167,25 +167,6 @@
     color: #f7cd26;
     background-color: #0daaa5;
 }
-/* 
-.sm-banner{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-} */
-
-/* .sm-banner .banner-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
-    padding: 30px;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shadda2.jpg);
-    min-width: 580px;
-    height: 50vh;
-    background-position: center;
-    background-size: contain;
-} */
 
 .sm-banner h4{
     color: #fff;
@@ -210,22 +191,172 @@
 
 .banner-box{
     width: 49%;
-    min-height: 40vh;
+    min-height: 35vh;
     padding: 30px 10px;
     float: left;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shadda2.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/bag2.jpg);
+    background-position: center;
+    background-size: contain;
 
 }
 .banner-box1{
     padding: 30px 10px;
     width: 49%;
-    min-height: 40vh;
+    min-height: 35vh;
     float: right;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shadda2.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shoe1.jpg);
+    background-position: center;
+    background-size: contain;
 
 }
-.t::after{
+.clear-prop::after{
     content: " ";
     display: block;
     clear: both;
+}
+
+/* season */
+
+.sm-banners h3{
+    color: #fff;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.sm-banners h2{
+    margin-top: 30px;
+    color: #2fd3c8;
+    font-size: 20px;
+}
+
+
+.sm-banners{
+    width: 100%;
+}
+
+.banner-boxs{
+    text-align: center;
+    width: 49%;
+    min-height: 35vh;
+    padding: 30px 10px;
+    float: left;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/homebackground.jpg);
+    background-position: center;
+    background-size: contain;
+
+}
+.banner-boxs1{
+    text-align: center;
+    padding: 30px 10px;
+    width: 49%;
+    min-height: 35vh;
+    float: right;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shadda2.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+.clear-props::after{
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shadda2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 30px;
+
+}
+
+.newsletter h4{
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.newsletter p{
+    color: #0daaa5;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.newsletter span{
+    color: #f7cd26;
+   }
+   .newsletter .form{
+    display: flex;
+    width: 40%;
+   }
+
+   .newsletter input{
+    height: 3.125rem;
+    padding: 0 1.0em;
+    font-size: 14px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.newsletter button{
+    background: #0daaa5;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    padding: 0 20px;
+    transition: .5s;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+   
+} 
+
+.newsletter button:hover{
+    background-color: #c5a319;
+    color: #fff;
+}
+.col img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    color: #222;
+    margin: 8px 0;
+}
+
+@media (min-width: 700px){
+    .newsletter input{
+        width: 100%;
+    }
 }
