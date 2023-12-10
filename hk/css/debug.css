@@ -9,11 +9,22 @@
 .text-box{
     width: 90%;
     position: absolute;
-    padding: 5%;
+    padding: 15% 5%;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
+}
+
+.hero-img .arrow{
+    color: #2fd3c8;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.hero-img .arrow p{
+    margin: 20px 30px;
 }
 .btn-color{
     display: inline-block;
