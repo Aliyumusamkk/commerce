@@ -194,7 +194,7 @@
     min-height: 35vh;
     padding: 30px 10px;
     float: left;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/bag2.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/poster1.jpg);
     background-position: center;
     background-size: contain;
 
@@ -251,7 +251,7 @@
     width: 49%;
     min-height: 35vh;
     float: right;
-    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/shadda2.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.6),rgba(4,9,30,0.6)), url(../img/poster3.jpg);
     background-position: center;
     background-size: contain;
 }
