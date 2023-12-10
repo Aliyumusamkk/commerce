@@ -558,3 +558,7 @@
     color: var(--primary);
 }
 
+footer .payment .row img{
+    width: 100px;
+}
+
