@@ -8,7 +8,7 @@
 .header{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url(homebackground.jpg);
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(homebackground.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -16,16 +16,6 @@
     
 }
 
-.aboutheader{
-    width: 100%;
-    height: 50vh;
-    background: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.4)), url(homebackground.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    overflow: hidden;
-    
-}
 
 
 #padding{
@@ -43,11 +33,29 @@ nav img{
     padding: 10px 0;
 }
 
+nav .text-logo{
+    font-size: 18px;
+    background: linear-gradient(90deg, rgb(77, 151, 216), rgb(248, 1, 174));
+    -webkit-background-clip: text;
+    display: inline-block;
+    color: transparent;
+    border: 2px groove #fff;
+    padding: 5px;
+}
+
+nav .text-logo span{
+    color: yellow;
+    display: inline;
+    font-size: 20px;
+    
+}
+
 nav{
     display: flex;
     padding: 1% 6%;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10px;
     
 }
 .nav-links{
@@ -79,7 +87,7 @@ nav{
 }
 .buy a{
     position: absolute;
-    bottom: 91%;
+    bottom: 92%;
     font-size: 15px;
     background-color: cadetblue;
     padding: 3px 30px;
@@ -91,16 +99,6 @@ nav{
     margin: auto;
 }
 
-/* .hero-img .arrow{
-    color: #2fd3c8;
-    display: flex;
-    align-items: flex-end;
-    justify-content: end;
-}
-
-.hero-img .arrow p{
-    margin: 20px 30px;
-} */
 
 .text-box{
     width:90%;
@@ -143,12 +141,13 @@ nav{
 
 @media(max-width: 700px){
     .text-box h1{
-        font-size: 28px;
+        font-size: 20px;
+        line-height: 25px;
     }
 
     .text-box p{
         margin: 10px 0 40px;
-        font-size: 14px;
+        font-size: 16px;
     }
     .buy{
         display: none;
@@ -168,13 +167,16 @@ nav{
     }
     .nav-links ul li{
         display: block;
-        padding-top: 40px;
+        padding: 5px 0;
+    }
+
+    .nav-links ul li a{
+        font-size: 14px;
+    }
+    .nav-links ul{
+        margin-top: 40%;
     }
   
-    .nav-links ul{
-        padding: 5px 10px;
-        font-size: 12px;
-    }
     span{
         display: block;
         color: #fff;
@@ -188,15 +190,14 @@ nav{
         display: block;
         width: 40px;
         position: absolute;
-        left: 5px;
-        margin-top: -7px;
+        left: 0px;
+        margin-top: -15px;
     }
     #show{
         display: block;
     }
     .buy a{
         background: rgb(17, 78, 80);
-        border: none;
         display: none;
     }
     .nav-links ul li::after{
@@ -282,7 +283,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(shadda2.jpg);
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./img/shadda2.jpg);
     width: 100%;
     padding: 5% 0;
     background-position: center;
@@ -326,7 +327,7 @@ nav{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(shadda2.jpg);
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./img/shadda2.jpg);
     width: 700px;
     padding: 10% 0 0 0;
     background-position: center;
@@ -374,10 +375,12 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(shadda2.jpg);
+    background: linear-gradient(90deg, #0c5f69, #850a0a);
     background-position: center;
     background-size: cover;
-    padding: 40px 35px;
+    padding: 20px 20px;
+    width: 100%;
+    
 }
 .newsletter h4{
     color: #ffffff;
@@ -400,7 +403,7 @@ nav{
 .newsletter input{
     height: 3.125rem;
     width: 100%;
-    padding: 0 1.25em;
+    padding: 0 1em;
     font-size: 16px;
     outline: none;
     border: 1px solid transparent;
@@ -446,19 +449,24 @@ footer .col{
     flex-direction: column;
     margin-bottom: 15px;
     align-items: flex-start;
-   padding: 0 15px;
+    padding: 0 15px;
+}
+
+footer .col p{
+    padding-bottom: 5px;
 }
 
 footer h4{
-    font-size: 18px;
+    font-size: 16px;
     padding-bottom: 15px;
 }
 footer strong{
-    font-size: 18px;
-    margin: 0 0 8px 0;
-}
-footer p span{
     font-size: 14px;
+    margin: 0 0 8px 0;
+    color: black;
+}
+footer .col p{
+    font-size: 12px;
     color: rgb(105, 97, 97);
    
 }
@@ -493,6 +501,7 @@ footer .copyright{
 
 }
 footer .copyright p{
+    line-height: 25px;
     font-size: 14px;
 }
 
