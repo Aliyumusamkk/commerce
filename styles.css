@@ -484,13 +484,16 @@ footer a:hover{
 footer .follow{
     margin-top: 20px;
 }
-footer .icon span{
+footer .icon img{
+    width: 30px;
     color: rgb(74, 17, 206);
     padding-right: 4px;
     cursor: pointer;
     display: inline;
 } 
-
+footer .icon a{
+text-decoration: none;
+}
 footer .install .row{
     margin: 10px 0;
 }
