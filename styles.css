@@ -22,9 +22,17 @@
     padding: 3%;
     background: #eee;
 }
+#abtpadding{
+    padding: 3%;
+    background: #eee;
+}
+.vidpadding{
+    padding: 3%;
+    background: #eee;
+}
 
 #section-margin{
-    margin: 30px 0;
+    margin: 30px 0 0 0;
 }
 
 nav img{
@@ -34,7 +42,7 @@ nav img{
 }
 
 nav .text-logo{
-    font-size: 18px;
+    font-size: 14px;
     background: linear-gradient(90deg, rgb(77, 151, 216), rgb(248, 1, 174));
     -webkit-background-clip: text;
     display: inline-block;
@@ -45,9 +53,7 @@ nav .text-logo{
 
 nav .text-logo span{
     color: yellow;
-    display: inline;
-    font-size: 20px;
-    
+    display: inline;  
 }
 
 nav{
@@ -87,7 +93,7 @@ nav{
 }
 .buy a{
     position: absolute;
-    bottom: 92%;
+    bottom: 91%;
     font-size: 15px;
     background-color: cadetblue;
     padding: 3px 30px;
@@ -113,6 +119,8 @@ nav{
 .text-box h1{
     font-size: 40px;
 }
+
+
 
 .text-box p{
     margin: 15px 0 40px;
@@ -283,11 +291,11 @@ nav{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./img/shadda2.jpg);
+    background: linear-gradient(rgba(3, 9, 33, 0.7), rgba(3, 9, 33, 0.7)), url(./img/shop/banner2.jfif);
     width: 100%;
     padding: 5% 0;
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .banner h4{
@@ -307,7 +315,7 @@ nav{
     text-decoration: none;
     background: cadetblue;
     border:none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #fff;
     width: 30%;
     padding: 10px;
@@ -327,9 +335,9 @@ nav{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./img/shadda2.jpg);
+    background: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./img/shop/banner1.jfif);
     width: 700px;
-    padding: 10% 0 0 0;
+    padding: 5% 0 0 0;
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -349,20 +357,20 @@ nav{
 }
 .small-banner  h2{
     color: #fff;
-    padding: 12px 0;
+    padding: 5px 0;
 }
 
 .small-banner  a{
     text-decoration: none;
     background: cadetblue;
     border:none;
-    border-radius: 10px;
+    border-radius: 5px;
     color: #fff;
     width: 30%;
-    padding: 15px;
+    padding: 10px 5px;
     position: relative;
-    left: 35%;
-    margin: 35px 0;
+    left: 38%;
+    margin: 20px 0;
     font-size: 15px;
     transition: 1s;
 }
@@ -375,7 +383,7 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    background: linear-gradient(90deg, #011517, #240101);
+    background: linear-gradient(rgba(3, 9, 33, 0.7), rgba(3, 9, 33, 0.7)), url(./img/shop/banner2.jfif);
     background-position: center;
     background-size: cover;
     padding: 20px 20px;
@@ -507,6 +515,109 @@ footer .copyright p{
     line-height: 25px;
     font-size: 14px;
 }
+
+
+
+/* ==============ABOUT=================*/
+.aboutheader{
+    width: 100%;
+    height: 30vh;
+    background: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(homebackground.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.about-text{
+    width:90%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 20px 0;   
+}
+.about-text h1{
+    font-size: 30px;
+}
+
+.about-text p{
+    margin: 15px 0 40px;
+    font-size: 17px;
+}
+
+.abtbuy a{
+    position: absolute;
+    bottom: 70%;
+    font-size: 15px;
+    background-color: cadetblue;
+    padding: 3px 30px;
+    border: none;
+    list-style: none;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+}
+#abtpadding{
+    display: flex;
+    align-items: center;
+}
+#abtpadding img{
+    min-width: 50%;
+    height: 400px;
+}
+
+#abtpadding div{
+    padding-left: 40px;
+}
+
+#abtpadding h2{
+    font-size: 50px;
+    margin: 10px 0 20px 0;
+}
+
+#aboutvideo{
+    text-align: center;
+} 
+
+#aboutvideo .video{
+    width: 50%;
+    margin: 30px auto 0 auto;
+}
+
+#aboutvideo .video video{
+    width: 35%;
+    border-radius: 15px;
+}
+
+@media(max-width: 700px){
+    #abtpadding {
+        flex-direction: column;
+    }
+
+    #abtpadding img {
+      margin-bottom: 20px;
+    }
+    #abtpadding h2 {
+        font-size: 30px;
+    }
+
+    #abtpadding div {
+        padding-left: 0px;
+    }
+
+    #aboutvideo .video video{
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+
+
+
 
 
 
