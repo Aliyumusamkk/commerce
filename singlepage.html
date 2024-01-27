@@ -39,19 +39,19 @@
 
       <div class="small-image-group">
         <div class="small-image-col">
-          <img src="./img/shop/t3.jfif" width="100%" id="smallImage">
+          <img src="./img/shop/t3.jfif" width="100%" class="smallImage">
         </div>
 
         <div class="small-image-col">
-          <img src="./img/shop/mw5.jfif" width="100%" id="smallImage">
+          <img src="./img/shop/mw5.jfif" width="100%" class="smallImage">
         </div>
 
         <div class="small-image-col">
-          <img src="./img/shop/b3.jfif" width="100%" id="smallImage">
+          <img src="./img/shop/b3.jfif" width="100%" class="smallImage">
         </div>
 
         <div class="small-image-col">
-          <img src="./img/shop/maleshoe1.jfif" width="100%" id="smallImage">
+          <img src="./img/shop/maleshoe1.jfif" width="100%" class="smallImage">
         </div>
       </div>
   </div>
@@ -284,7 +284,7 @@
 
       <script>
         var mainImage = document.getElementById("mainImage");
-        var smallImage = document.getElementsById("smallImage");
+        var smallImage = document.getElementsByClassName("smallImage");
 
         smallImage[0].onclick = function(){
           mainImage.src = smallImage[0].src;
@@ -299,7 +299,7 @@
         }
 
         smallImage[3].onclick = function(){
-          mainImagesrc = smallImage[3].src;
+          mainImage.src = smallImage[3].src;
         }
 
         let navbar = document.getElementById("navbar");
