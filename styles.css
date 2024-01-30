@@ -90,12 +90,12 @@ nav{
 .nav-links ul li:hover:after{
     width: 100%;
 }
-.buy a{
+.header .buy a{
     position: absolute;
     bottom: 93.5%;
     font-size: 15px;
     background-color: cadetblue;
-    padding: 3px 30px;
+    padding: 4px 28px;
     border: none;
     list-style: none;
     border-radius: 8px;
@@ -547,12 +547,12 @@ footer .copyright p{
     font-size: 17px;
 }
 
-.abtbuy a{
+.aboutheader .abtbuy a{
         position: absolute;
         bottom: 78.5%;
         font-size: 15px;
         background-color: cadetblue;
-        padding: 3px 30px;
+        padding: 4px 28px;
         border: none;
         list-style: none;
         border-radius: 8px;
@@ -560,12 +560,12 @@ footer .copyright p{
         color: #fff;
         margin: auto;
 }
-#service-btn{
+#service-btn a{
         position: absolute;
-        bottom: 93.5%;
+        bottom: 78.5%;
         font-size: 15px;
         background-color: cadetblue;
-        padding: 2px 28px;
+        padding: 4px 28px;
         border: none;
         list-style: none;
         border-radius: 8px;
@@ -573,12 +573,12 @@ footer .copyright p{
         color: #fff;
         margin: auto;
 }
-#contact-btn{
+#contact-btn a{
         position: absolute;
         bottom: 78.5%;
         font-size: 15px;
         background-color: cadetblue;
-        padding: 2px 28px;
+        padding: 4px 28px;
         border: none;
         list-style: none;
         border-radius: 8px;
