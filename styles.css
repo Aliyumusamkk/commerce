@@ -41,20 +41,6 @@ nav img{
     margin-top: 10px;
 }
 
-nav .text-logo{
-    font-size: 14px;
-    background: linear-gradient(90deg, rgb(77, 151, 216), rgb(248, 1, 174));
-    -webkit-background-clip: text;
-    display: inline-block;
-    color: transparent;
-    border: 2px groove #fff;
-    padding: 5px;
-}
-
-nav .text-logo span{
-    color: yellow;
-    display: inline;  
-}
 
 nav{
     display: flex;
@@ -82,7 +68,7 @@ nav{
     content: "";
     width: 0%;
     height: 2px;
-    background-color: red;
+    background-color: cadetblue;
     display: block;
     transition: .5s;
 }
@@ -116,11 +102,13 @@ nav{
     padding: 20px 0;   
 }
 .text-box h1{
+    padding-bottom: 15px;
     font-size: 40px;
 }
-
-
-
+.text-box span{
+    font-size: 17px;
+    color: goldenrod;
+}
 .text-box p{
     margin: 15px 0 40px;
     font-size: 17px;
@@ -172,14 +160,16 @@ nav{
     }
     .nav-links ul li{
         display: block;
-        padding: 5px 0;
+        padding: 3px 0;
+      
     }
 
     .nav-links ul li a{
         font-size: 14px;
+        color: #fff;
     }
     .nav-links ul{
-        margin-top: 40%;
+        margin-top: 30%;
     }
   
     span{
@@ -188,12 +178,12 @@ nav{
     }
 
     nav span img{
-        width: 40px;
+        width: 35px;
     }
     
     #hide{
         display: block;
-        width: 40px;
+        width: 35px;
         position: absolute;
         left: 0px;
         margin-top: -15px;
