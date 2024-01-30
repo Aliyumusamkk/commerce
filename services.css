@@ -112,4 +112,103 @@
     .prodetails .single-pro-detai span{
         color: black;
     }
+
+    /* contac page */
+    .contac-details{
+        flex-direction: column;
+    }
+    .contac-details .details{
+        width: 100%;
+    }
+    
+    .contac-details .map{
+        width: 100%;
+       
+    }
+ 
 }
+
+
+
+/* ==========contact=========== */
+.contac-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contac-details .details img{
+    width: 40px;
+    padding-right: 18px;
+} 
+
+
+.contac-details .details span,
+.form-details form span{
+    font-size: 12px;
+    color: black;
+}
+
+.contac-details .details h2,
+.form-details h2{
+    font-size: 26px;
+    line-height: 35px;
+    padding: 15px 0;
+}
+
+.contac-details .details h3{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+.contac-details .details li{
+    list-style: none;
+    display: flex;
+    padding: 5px 0;
+}
+.contac-details .details p{
+    margin: 0;
+    font-size: 14px;
+}
+.contac-details .details{
+    width: 100%;
+}
+
+.contac-details .map{
+    padding-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.contac-details iframe{
+    width: 100%;
+    height: 350px;
+}
+
+.form-details form{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    position: relative;
+    left: 10%; 
+    border: 1px solid rgb(49, 46, 46);
+    padding: 15px;
+}
+.form-details form input,
+.form-details form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 1px solid rgb(49, 46, 46);
+}
+.form-details form button{
+    background: cadetblue;
+    padding: 12px 18px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+}
+
